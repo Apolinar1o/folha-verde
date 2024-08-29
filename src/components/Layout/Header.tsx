@@ -9,11 +9,11 @@ function Header() {
 
   return (
     <header className='bg-green-600 text-white'>
-      <div className='container mx-auto px-4 py-6 flex justify-between items-center'>
+      <div className=' header container mx-auto px-4 py-6 flex justify-between items-center'>
         <Link href='/' className='text-2xl font-bold'>
           Folha Verde
         </Link>
-        <nav>
+        <nav className='icons'>
           <ul className='flex space-x-4'>
             <li>
               <Link href='/'>Home</Link>
